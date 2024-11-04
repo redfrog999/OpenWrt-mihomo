@@ -14,7 +14,7 @@ PKG_MAINTAINER:=Joseph Mory <morytyann@gmail.com>
 
 PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
-PKG_BUILD_FLAGS:=no-mips16
+PKG_USE_MIPS16:=0
 
 PKG_BUILD_VERSION:=alpha-3e966e8
 PKG_BUILD_TIME:=$(shell date -u -Iseconds)
