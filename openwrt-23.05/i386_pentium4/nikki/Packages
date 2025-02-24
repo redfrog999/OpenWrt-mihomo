@@ -1,0 +1,35 @@
+Package: luci-app-nikki
+Version: 1.19.3
+Depends: libc, luci-base, nikki
+Section: luci
+Architecture: all
+Installed-Size: 8552
+Filename: luci-app-nikki_1.19.3_all.ipk
+Size: 9374
+SHA256sum: 1d48e77325d0ee50d5e5b2b5f598fddfb3e832b48428f2e26e1c969086054072
+Description:  LuCI Support for nikki
+
+Package: luci-i18n-nikki-zh-cn
+Version: git-25.055.40627-f511e3e
+Depends: libc, luci-app-nikki
+Section: luci
+Architecture: all
+Installed-Size: 3823
+Filename: luci-i18n-nikki-zh-cn_git-25.055.40627-f511e3e_all.ipk
+Size: 4548
+SHA256sum: f03e4835f5292c0d3c5123bb520661c1e4804f17c7e5d0da5376ffa6983e1172
+Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
+
+Package: nikki
+Version: 2025-02-21-5830afcb-5
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-tproxy, kmod-tun
+Provides: mihomo
+License: GPL3.0+
+Section: net
+Architecture: i386_pentium4
+Installed-Size: 12454823
+Filename: nikki_2025-02-21-5830afcb-5_i386_pentium4.ipk
+Size: 12427229
+SHA256sum: b4ad88e8deac1bbca911f3822f5853be5ac490118f0ed2895db701187478d7f4
+Description:  A rule based proxy in Go.
+
